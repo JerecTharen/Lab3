@@ -9,13 +9,13 @@ header, footer {
     background-color: black;
 }
 
-div#content {
+section {
     margin: 6px;
     padding: 12px;
     background-color: lightgrey;
 }
 
-div.article {
+article {
     margin: 6px;
     padding: 12px;
     background-color: white;
@@ -29,4 +29,8 @@ menu ul {
 menu ul li {
     display: inline;
     margin: 8px;
+}
+
+menu {
+    padding-left: 0;
 }
